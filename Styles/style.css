@@ -1,0 +1,135 @@
+header{
+    
+    height: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-style: italic;
+    background-color: #f6f6f6;
+    color: rgb(0, 0, 0);
+    margin: 1% 42%;
+    border: 3px solid black;
+    border-radius: 50px;
+    
+}
+
+main{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding : 5px;
+    box-shadow: 0px 25px 40px rgb(2, 2, 2);
+    background: #f6f6f6;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+body {
+    background-image: url("C:/Users/harsh/OneDrive/Documents/Conestoga/Web Design course/Assignments/Assignment 2/images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: rgb(192 7 7);
+    box-sizing: border-box;
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+    padding: 50px 20px 60px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 10px;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+input[type="button"] {
+    height: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 10px;
+    background-color: bisque;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(64, 64, 64);
+}
+
+table{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0 33%;
+}
+
+th, td{
+    border: 1px solid black
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.productDescription{
+    margin : 0px;
+    height: 90px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+p{
+    margin:0;
+}
+.itemCount{
+    margin : 0px;
+    height: 15px;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.hidden {
+    display: none;
+}
+.error {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f6f6f6;
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 8px;
+}
+.child{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    /* justify-content: space-between; */
+}
+.child > section {
+    margin-right: 8%;
+}
+
+#checkout{
+    border: 1px solid black;
+    font-size: large;
+    border-radius: 5px;
+    background-color:brown;
+    color: aliceblue;
+    height: 30px;
+    width: auto;
+}

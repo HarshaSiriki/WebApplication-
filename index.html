@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EStore</title>
+        <link rel="stylesheet" href="Styles/style.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>EatOut</h1>
+        </header>
+        <main>
+            <section class="products">
+                <img src="images/biryani.jfif" alt="Biryani">
+                <section class = "productDescription">
+                    <p>Biryani</p>
+                    <p id="biryaniPrice" value ="15.00">$15.00</p>
+                </section>
+                <section class = "itemCount">
+                    <input id  = "birDec"
+                        type="button"
+                        value = "-"
+                        onclick="decrementItem(this.id)"
+                    >
+                    <p id = "biryaniQty">0</p>
+                    <input id = "birInc"
+                        type="button"
+                        value = "+"
+                        onclick="incrementItem(this.id)"
+                    >
+                </section>
+            </section>
+            <section class="products">
+                <img src="images/burger.jfif" alt="Burger">
+                <section class = "productDescription">
+                    <p>Burger</p>
+                    <p id="burgerPrice" value="5.99">$5.99</p>
+                </section>
+                <section class = "itemCount">
+                        <input id = "burDec"
+                            type="button"
+                            value = "-"
+                            onclick="decrementItem(this.id)"
+                        >
+                    <p id = "burgerQty">0</p>
+                        <input id = "burInc"
+                            type="button"
+                            value = "+"
+                            onclick="incrementItem(this.id)"
+                        >
+                </section>
+            </section>
+            <section class="products">
+                <img src="images/chicken_wings.jfif" alt="Chicken wings">
+                <section class = "productDescription">
+                    <p>Chicken Wings</p>
+                    <p id="wingsPrice" value="6.99">$6.99</p>
+                </section>
+                <section class = "itemCount">
+                        <input id = "winDec"
+                            type="button"
+                            value = "-"
+                            onclick="decrementItem(this.id)"
+                        >
+                    <p id = "wingsQty">0</p>
+                        <input id = "winInc"
+                            type="button"
+                            value = "+"
+                            onclick="incrementItem(this.id)"
+                        >
+                </section>
+            </section>
+            <section class="products">
+                <img src="images/fries.jfif" alt="Fries">
+                <section class = "productDescription">
+                    <p>Fries</p>
+                    <p id="friesPrice" value="6.99">$6.99</p>
+                </section>
+                <section class = "itemCount">
+                        <input id = "friDec"
+                            type="button"
+                            value = "-"
+                            onclick="decrementItem(this.id)"
+                        >
+                    <p id = "friesQty">0</p>
+                        <input id = "friInc"
+                            type="button"
+                            value = "+"
+                            onclick="incrementItem(this.id)"
+                        >
+                </section>
+            </section>
+            <section class="products">
+                <img src="images/pizza.jfif" alt="Pizza">
+                <section class = "productDescription">
+                    <p>Pizza</p>
+                    <p id="pizzaPrice" value="7.99">$7.99</p>
+                </section>
+                <section class = "itemCount">
+                        <input id = "pizDec"
+                            type="button"
+                            value = "-"
+                            onclick="decrementItem(this.id)"
+                        >
+                    <p id = "pizzaQty">0</p>
+                        <input id = "pizInc"
+                            type="button"
+                            value = "+"
+                            onclick="incrementItem(this.id)"
+                        >
+                </section>
+            </section>
+            <section class="products">
+                <img src="images/samosa.jfif" alt="Samosa">
+                <section class = "productDescription">
+                    <p>Samosa</p>
+                    <p id="samosaPrice" value="3.99">$3.99</p>
+                </section>
+                <section class = "itemCount">
+                        <input id = "samDec"
+                            type="button"
+                            value = "-"
+                            onclick="decrementItem(this.id)"
+                        >
+                    <p id = "samosaQty">0</p>
+                        <input id = "samInc"
+                            type="button"
+                            value = "+"
+                            onclick="incrementItem(this.id)"
+                        >
+                </section>
+            </section>
+        </main>
+        <footer>
+            <input id="checkout"
+                type="button"
+                value = "Checkout"
+                onclick = "checkout()"
+            >
+            <span id ="checkoutError" class = "error hidden">Error</span>
+        </footer>
+        
+        <script src="first.js"></script>
+    </body>
+
+</html>

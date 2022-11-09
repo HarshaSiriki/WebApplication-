@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Information </title>
+        <link rel="stylesheet" href="Styles/receipt-Style.css">
+    </head>
+    <body>
+        <header>
+            <h2 class="names">Personal information</h2>
+        </header>
+
+        <main> 
+            <form method="post" class="personal_information" id="personal_information">
+
+                <div class="form-element">
+                    <p id="names"> Name: </p>
+                    <input id="name" type="text" placeholder="Eg: Jane Doe">
+                    <p id="name-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div id="newpwd" class="form-element">
+                    <p id="NewPasswords">New Password: </p>
+                    <input id="pass" type="text" placeholder="Enter a password">
+                    <p id="password-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div id="confirmpwd" class="form-element">
+                    <p id="cNewPasswords">Confirm Password: </p>
+                    <input id="password" type="text" placeholder="Confirm Password">
+                    <p id="Confirmpassword-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div id="phonee" class="form-element">
+                    <p id="phones"> Phone: </p>
+                    <input id="phone" type="text" placeholder="Include Dialing code">
+                    <p id="phone-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div id="postcodee" class="form-element">
+                    <p id="phonecodes"> Postcode: </p>
+                    <input id="postcode" type="text" placeholder="Postcode">
+                    <p id="postcode-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div id="addresss" class="form-element">
+                    <p id="address1"> Address: </p>
+                    <input id="address" type="text" placeholder="Address">
+                    <p id="address-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div class="form-element">
+                    <p id="cities"> City: </p>
+                    <select name="city" id="city">
+                        <option value=""></option>
+                        <option value="Toronto">Toronto</option>
+                        <option value="Ottawa">Ottawa</option>
+                        <option value="Brampton">Brampton</option>
+                        <option value="London">London</option>
+                        <option value="Edmonton">Edmonton</option>
+                        <option value="victoria">Victoria</option>
+                        <option value="winniepeg">Winniepeg</option>
+                        <option value="fredericton">Fredericton</option>
+                        <option value="halifax">Halifax</option>
+                        <option value="Yellowknife">Yellowknife</option>
+                        <option value="foundland">Newfoundland & Labrador</option>
+                    </select>
+                    <p id="city-message" class="hidden red">This is Required</p>
+                </div>
+    
+                <div class="form-element">
+                    <p id="provinces"> Province: </p>
+                    
+                    <select name="province" id="province">
+                        <option value=""></option>
+                        <option value="alberta">Alberta</option>
+                        <option value="bc">British Columbia</option>
+                        <option value="brunswick">New Brunswick</option>
+                        <option value="foundland">Newfoundland & Labrador</option>
+                        <option value="northwest">Northwest Territories</option>
+                        <option value="scotia">Nova Scotia</option>
+                        <option value="manitoba">Manitoba</option>
+                        <option value="nunavut">Nunavut</option>
+                        <option value="ontario">Ontario</option>
+                        <option value="Prince">Prince Edward Island</option>
+                        <option value="quebec">Quebec</option>
+                        <option value="saskatchewan">Saskatchewan</option>
+                        <option value="yukon">Yukon</option>
+                    </select>
+                    <p id="province-message" class="hidden red">This is Required</p>
+                </div>
+
+                <div id="emailDiv" class="form-element">
+                    <p id="emailDescription"> Enter Email: </p>
+                    <input id="email" type="text" placeholder="Enter Email">
+                    <p id="email-message" class="hidden red">This is Required</p>
+                </div>
+
+                <br>
+
+                <div class="card-header">
+                    <h4 class="title">Credit card detail</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Card Number -->
+                    <input id="cardNumber" type="text" class="card-number" placeholder="Card Number">
+                    <p id="card-message" class="hidden red">This is Required</p>
+                    
+                    <input id="year" type="text" placeholder="YYYY">
+                    <p id="year-message" class="hidden red">This is Required</p>
+                    
+                    <input id="month" type="text" placeholder="MMM">
+                    <p id="month-message" class="hidden red">This is Required</p>
+                    
+                    <input id="cvv" type="text" calss="card-number" placeholder="CVV">
+                    <p id="cvv-message" class="hidden red">This is Required</p>
+                
+                </div>
+
+                <input type="submit" value="Save">
+            </form>
+            <br>
+        </main>
+
+        <script src="second.js"></script>
+    </body>
+
+</html>
